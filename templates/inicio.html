@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <a href="#" class="logo">PASARELA DE PAGOS</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="/static/img/menu.png" alt="..." class="menu-icono">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="{{url_for('home')}}">Inicio</a></li>
+                        <li><a href="{{url_for('Nosotros')}}">Sobre nosotros</a></li>
+                        <li>
+                            <a href="#">¿Qué quieres hacer?</a>
+                            <ul class="menu-vertical">
+                                <li><a href="#">Agregar fondos</a></li>
+                                <li><a href="#">Retirar fondos</a></li>
+                                <li><a href="#">Enviar y solicitar fondos</a></li>
+                            </ul>
+                        </li>
+                        <li><img src="/static/img/configuracion-usuario-azul-negro.png" alt="" class="sesion"></li>
+                        <li><a href="{{url_for('Sesion')}}">Iniciar sesión</a></li>
+                        <li><a href="#" class="btn">Registrate</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!-- FIN DE BARRA DE NAVEGACIÓN -->
+
+</body>
+</html>

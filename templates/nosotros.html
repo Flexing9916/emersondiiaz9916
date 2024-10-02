@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Sobre nosotros</title>
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <a href="#" class="logo">PASARELA DE PAGOS</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="/static/img/menu.png" alt="..." class="menu-icono">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="{{url_for('home')}}">Inicio</a></li>
+                        <li><a href="{{url_for('Nosotros')}}">Sobre nosotros</a></li>
+                        <li>
+                            <a href="#">¿Qué quieres hacer?</a>
+                            <ul class="menu-vertical">
+                                <li><a href="#">Agregar fondos</a></li>
+                                <li><a href="#">Retirar fondos</a></li>
+                                <li><a href="#">Enviar y solicitar fondos</a></li>
+                            </ul>
+                        </li>
+                        <li><img src="/static/img/configuracion-usuario-azul-negro.png" alt="" class="sesion"></li>
+                        <li><a href="#">Iniciar sesión</a></li>
+                        <li><a href="#" class="btn">Registrate</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!-- FIN DE BARRA DE NAVEGACIÓN -->
+
+<!-- INICIO DE CONTENIDO -->
+
+<section class="nosotros">
+
+    <div class="intro">
+        <h1 class="titulo1">¿QUÉ ES PASARELA DE PAGO?</h1><br><br>
+        <p class="letras">Pasarela de pago es la cuenta en dólares digitales más<br>conectada del mundo, con <strong>más de 500 formas<br>diferentes</strong> de comprar y vender dólares digitales. <br><br>Tenemos presencia en más de 190 países.</p>
+    </div>
+    <div class="intro">
+        <h1 class="titulo1">LIBERTAD FINANCIERA</h1><br><br>
+        <p class="letras">Te brindamos la facilidad de poder mover <br>tu dinero en el momento en que lo <br>requieras, sin importar donde te <br>encuentres, a través de bancos nacionales <br>e internacionales, billeteras digitales y <br>más, ofreciéndote las opciones necesarias <br>para tomar las mejores decisiones.</p>
+    </div>
+
+</section>
+
+<!-- FIN DE CONTENIDO -->
+
+
+    
+</body>
+</html>

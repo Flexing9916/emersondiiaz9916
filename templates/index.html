@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Libera tu potencial</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<!-- BARRA DE NAVEGACIÓN -->
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <a href="#" class="logo">PASARELA DE PAGOS</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="/static/img/menu.png" alt="..." class="menu-icono">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="{{url_for('home')}}">Inicio</a></li>
+                        <li><a href="{{url_for('Nosotros')}}">Sobre nosotros</a></li>
+                        <li>
+                            <a href="#">¿Qué quieres hacer?</a>
+                            <ul class="menu-vertical">
+                                <li><a href="#">Cuenta Virtual</a></li>
+                                <li><a href="#">Agregar fondos</a></li>
+                                <li><a href="#">Retirar fondos</a></li>
+                                <li><a href="#">Enviar y solicitar fondos</a></li>
+                            </ul>
+                        </li>
+                        <li><img src="/static/img/configuracion-usuario-azul-negro.png" alt="" class="sesion"></li>
+                        <li><a href="{{url_for('Sesion')}}">Iniciar sesión</a></li>
+                        <li><a href="#" class="btn">Registrate</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!-- FIN DE BARRA DE NAVEGACIÓN -->
+
+<!-- CONTENIDO DE INICIO -->
+
+<section>
+    <div class="intro">
+        <h1 class="titulo">MUEVE Y USA TU DINERO<br>COMO Y CUANDO QUIERAS, <br>EN DONDE ESTÉS</h1><br><br>
+        <p class="letras">Trae tu dinero de otras billeteras, recibe pagos y <br>conviértelo en moneda local con una cuenta en dólares<br>digitales conectada con el mundo.</p>
+    </div>
+    <br><br><br>
+    <div class="botones">
+        <button class="btn-c"><img src="/static/img/conjunto-botones-reproduccion.png" alt="" class="play-img">¿Cómo funciona?</button>
+        <button class="btn-c2"> <img src="/static/img/grupos-usuarios-anadir-borrar-corazon-signo-pregunta.png" alt="" class="play-img2"> Únete</button> 
+    </div>   
+</section>
+
+<!-- FIN DE CONTENIDO DE INICIO -->
+
+
+
+
+</body>
+</html>
